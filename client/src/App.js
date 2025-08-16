@@ -16,7 +16,7 @@ function App() {
     }
   };
 
-  const BACKEND_URL = 'https://backend-production-c73f.up.railway.app/'; // Replace with your Railway backend URL
+  const BACKEND_URL = 'https://backend-production-c73f.up.railway.app'; // Replace with your Railway backend URL
 
   const generateSummary = async () => {
     const res = await fetch(`${BACKEND_URL}/summarize`, {
